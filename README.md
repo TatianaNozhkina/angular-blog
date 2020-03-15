@@ -33,3 +33,6 @@ git add dist
 git commit -m "some comment"
 git subtree push --prefix dist/angular-blog origin gh-pages
 ```
+## Preview
+https://tatiananozhkina.github.io/angular-blog/
+
