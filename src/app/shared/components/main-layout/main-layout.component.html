@@ -1,5 +1,10 @@
 <nav class="navbar main">
   <h1>Angular Blog</h1>
+  <ul>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/admin', 'login']">Login</a>
+    </li>
+  </ul>
 </nav>
 
 <div class="container">
